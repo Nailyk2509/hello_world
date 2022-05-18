@@ -1,0 +1,19 @@
+{
+    "name": "php/helloworld",
+    "description": "affiche hello world",
+    "license": "proprietary",
+    "scripts": {
+        "test": "test/test.php"
+    },
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {
+        "php": "^8.1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1.5"
+    }
+}
