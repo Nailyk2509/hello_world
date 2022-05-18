@@ -1,6 +1,7 @@
 <?php
 
 public class HelloWorld() {
+    string $word = "Hello Wolrd";
     function page() {
         echo '<!doctype html>
 <html lang="fr">
@@ -11,7 +12,7 @@ public class HelloWorld() {
   <script src="script.js"></script>
 </head>
 <body>
-   <strong>Hello World !</strong>
+   <strong>' $word '</strong>
 </body>
 </html>';
     }
